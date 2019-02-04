@@ -13,6 +13,6 @@ The app is deployed to GitHub Pages and can be accessed at: https://peshowe.gith
 
 The code which uses the Flickr API is the Photos Service at src/app/photos.service.ts. It allows querring the API for images with and without tag parameters. 
 
-The Photo Component at src/app/photo/ handles each image and its corresponding information individually and displays it as a box.
+The Photo Component at src/app/photo/ handles each image and its corresponding information individually and displays it as a box (which is also scrollable, although the scroll bar is hidden).
 
 The Stream Component at src/app/stream/ groups all Photo Component boxes and displays them cohesively and orderly on the page. It supports searching by tags and uses the Photos Service to get the images from the API. It also handles the modal window, but which has to be envoked from a Photo Component box, by clicking on an image.   
