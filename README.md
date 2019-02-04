@@ -14,7 +14,7 @@ To run the app an install of the [Angular CLI](https://angular.io/guide/quicksta
 
 To install Angular simply run
 ```
- npm client command line interface
+ npm install -g @angular/cli
 ```
 
-Run `ng serve --open` for a dev server. The web app will be opened at `http://localhost:4200/`.
+Run `ng serve --open` inside the top directory of the repository for a dev server. The web app will be opened at `http://localhost:4200/`.
