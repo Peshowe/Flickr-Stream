@@ -1,0 +1,26 @@
+
+<div>
+  <!-- Image -->
+  <div class="imageContainer" (click)=showModal()>
+    <img [src]="photo.media.m" class="image"/>
+  </div>
+
+  <br>
+  <!-- Title and author -->
+  <div class="photoInfo">
+    <a href="{{photo.link}}">{{photo.title}}</a> by <a href="{{photo.authorLink}}">{{photo.author}}</a>
+  </div>
+
+  <hr>
+
+  <!-- Description -->
+  <div [innerHTML]="photo.description"></div>
+  
+  <hr>
+
+  <!-- Tags -->
+  <div class="photoTags">
+    Tags: {{photo.tags}}
+  </div>
+
+</div>
