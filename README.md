@@ -1,27 +1,20 @@
-# FlickrApp
+# Flickr Photo Stream
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
 
-## Development server
+A Flickr Photo Stream web app, created using the Flickr API.
+It covers the basic requirements of the task, has an infinite scroll, allows dynamic searching by tags and also allows images to pop up in a modal window, when clicked on.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The CSS styling was definitely not the top priority here.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## How to run
 
-## Build
+To run the app an install of the [Angular CLI](https://angular.io/guide/quickstart#prerequisites) is required. Angular requires Node.js version 8.x or 10.x and the npm client command line interface.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+To install Angular simply run
+```
+ npm client command line interface
+```
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Run `ng serve --open` for a dev server. The web app will be opened at `http://localhost:4200/`.
