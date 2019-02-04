@@ -10,7 +10,7 @@ The CSS styling was definitely not the top priority here.
 
 ## How to run
 
-To run the app an, install of the [Angular CLI](https://angular.io/guide/quickstart#prerequisites) is required. Angular requires Node.js version 8.x or 10.x, and the npm client command line interface.
+To run the app, an install of the [Angular CLI](https://angular.io/guide/quickstart#prerequisites) is required. Angular requires Node.js version 8.x or 10.x, and the npm client command line interface.
 
 To install Angular simply run:
 ```
